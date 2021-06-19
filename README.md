@@ -1,7 +1,11 @@
-## Script to create virtual host for apache2 in Ubuntu >12.04.
+## Script to create virtual host for apache2 in Ubuntu & Mint.
 
 ### Usage
 1. Download or clone the script.
-2. Make it executable.
+2. Move to repo directory using terminal.
 3. Run the command:
-<pre-formatted>sudo [path-to-script]/virtual-host-script.sh [domain-name] [full-path-to-webroot] </pre-formatted>
+
+```
+sudo ./virtual-host-script.sh [HOST NAME] [DOCUMENT ROOT]
+sudo ./virtual-host-script.sh testing.local /var/www/html/testing
+```

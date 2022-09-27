@@ -23,7 +23,7 @@ if [ ! -f "$sitesAvailabledomain" ]; then
         ErrorLog $logsDir/error.log
         CustomLog $logsDir/access.log combined
         <Directory $WEB_ROOT_DIR>
-          # Require all granted
+          Require all granted
           Options Indexes FollowSymLinks MultiViews
           AllowOverride All
           allow from all
